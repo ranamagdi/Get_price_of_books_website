@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    width: 80%;
+    margin: auto auto 0 auto;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px 0;
+}
+
+.header-content ul{
+    list-style: none;
+}
+.header-content ul li{
+   display: inline-block;
+   font-size: 15px;
+   font-weight: bold;
+   color:#071e33;
+   cursor: pointer;
+  
+}
+.header-content ul li :first-child{
+    position: relative;
+}
+.header-content nav a{
+    text-decoration: none;
+    color: #071e33;
+    font-weight: bold;
+    padding: 0 13px;
+    font-size: 17px;
+    position: relative;
+    
+    
+}
+
+
+.header-content .icons a{
+    text-decoration: none;
+    color: #02b3e0;
+    font-weight: bold;
+    padding: 0 8px;
+    font-size: 21px;
+ 
+}
+.header-content .icons li:last-child{
+    position: relative;
+    
+}
+
+
+/*popular section start*/
+.popular{    
+    margin: 75px 0;
+}
+.popular .popular-text h1{
+    text-align: center;
+    color: #071e33;
+    font-size: 30px;
+}
+.popular .popular-text .line{
+    width: 8%;
+    height: 2px;    
+    background-color:#02b3e0;
+    margin:10px auto 45px auto;
+   
+}
+
+
+.popular .images{  
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    
+   
+}
+.eco1{
+    margin-right: 553px;
+}
+.popular .images img{
+    height: 340px;
+    width: 230px;
+   
+    
+}
+.popular .images h4{
+    color:#071e33;
+    font-size: 15px;
+    margin-top: 10px;
+    
+  
+
+}
+.popular .images h4 i{
+    margin-left: 20px;
+    cursor: pointer;
+    background-color: #02b3e0;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.popular .images .pop-book{
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 75px;
+}
+
+.images .pop-book .image{
+    background-color:#b3cbd7;
+    border-radius: 10px;   
+    width: 250px;   
+    height: 340px;
+  
+   
+
+}
+.images .pop-book .image img{
+    position: relative;
+}
+
+.header{
+    
+    position: relative;
+    bottom:345px;
+    left:160px;
+    border-radius: 0px 25px 0 25px;   
+    transform: rotate(15deg);  
+    width: 30%;   
+    text-align: center; 
+    background-color: rgba(255, 255, 255, 0.863);
+    padding-bottom: 10px;
+    border: #191a1b7c 1px solid;
+}
+
+#content{
+  display: block;
+  color: black;
+  font-size: 14px;
+  width: 220px;
+  border:#071e33 solid 2px;
+  border-radius: 10px;
+  position: absolute;
+  background-color: white;
+  z-index: 100;  
+  margin-left: -110px;
+  padding:10px;
+  text-align: center;
+  color: #071e33;
+  cursor: auto;
+  
+}
+#content h4{
+padding-bottom: 10px;
+color: #02b3e0;
+font-size: 15px;
+font-weight: 800;
+text-align: center;
+}
+#btn1{
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: 69px; 
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #02b3e0;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    border: solid white 1px;
+    cursor: pointer;
+    z-index: 200;
+}
+#all-price{
+    width: 150px;
+    height: 15px;
+    display: none;
+    position: absolute;
+    top: -20px;
+    left: -20px; 
+    font-weight: 600;
+    font-size: 15px;
+    background-color:#071e33;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    border: solid white 1px;
+    cursor: pointer;
+    z-index: 200;
+}
+span{
+    color: #071e33;
+}
